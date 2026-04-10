@@ -1,0 +1,3 @@
+zsh/local/*.zsh
+.vscode/
+.DS_Store

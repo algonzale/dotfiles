@@ -1,0 +1,5 @@
+alias g='git'
+alias gp='git push'
+alias gs='git status'
+alias gac='git add . && git commit --message'
+alias gcob='git checkout -b'
