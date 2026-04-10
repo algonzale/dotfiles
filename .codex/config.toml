@@ -1,0 +1,5 @@
+[mcp_servers.linear_personal]
+enabled = true
+
+[mcp_servers.notion_personal]
+enabled = true
