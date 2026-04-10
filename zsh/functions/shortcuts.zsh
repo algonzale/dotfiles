@@ -1,3 +1,4 @@
+# @desc Show shell keyboard shortcuts and line-editing controls.
 shortcuts() { # DO NOT MODIFY. SHORTCUTS COMMAND ADDED BY SHELL TUTORIAL
 cat <<-:
 Shortcut | Action

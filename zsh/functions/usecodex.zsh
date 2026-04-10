@@ -1,3 +1,4 @@
+# @desc Launch Codex with a selected profile and optional overrides.
 usecodex() {
   local config="$HOME/.codex/config.toml"
   local profile_arg="$1"

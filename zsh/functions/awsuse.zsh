@@ -1,3 +1,4 @@
+# @desc Pick an AWS profile, log in, and export AWS_PROFILE.
 awsuse() {
   local profile
   profile=$(aws configure list-profiles | fzf --prompt="Choose AWS profile: ")

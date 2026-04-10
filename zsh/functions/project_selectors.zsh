@@ -49,6 +49,7 @@ _open_selected_subdirectory() {
   lt
 }
 
+# @desc Jump into a directory from PROJECTS_DIR using fzf.
 projects() {
   if [ -z "${PROJECTS_DIR:-}" ]; then
     echo "❌ PROJECTS_DIR is not set. Define it in zsh/local/machine.zsh"
@@ -58,6 +59,7 @@ projects() {
   _open_selected_subdirectory "$PROJECTS_DIR" "Choose project: " "$*"
 }
 
+# @desc Jump into a directory from PGMTCODE_DIR using fzf.
 pgmtcode() {
   if [ -z "${PGMTCODE_DIR:-}" ]; then
     echo "❌ PGMTCODE_DIR is not set. Define it in zsh/local/machine.zsh"
